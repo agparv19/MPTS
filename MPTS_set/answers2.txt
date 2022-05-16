@@ -1,0 +1,18 @@
+lowestRouter 2 3: 0
+lowestRouter 4 8: 0
+lowestRouter 6 8: 2
+queryNthChild 2 2: 8
+findPhone 989: No MobilePhone 989 found
+findPhone 989: 10
+queryMobilePhoneSet 4: 989 
+queryMobilePhoneSet 1: 876 989 
+queryMobilePhoneSet 1: 656 876 989 
+queryMobilePhoneSet 0: 54 656 876 989 
+queryMobilePhoneSet 1: 876 989 
+queryMobilePhoneSet 0: 54 213 295 349 568 827 876 897 989 
+findCallPath 989 54: 10, 4, 1, 0, 2, 6, 12
+findCallPath 989 876: 17, 9, 3, 0, 1, 5, 11
+findCallPath 876 989: 11, 5, 1, 0, 3, 9, 17
+findCallPath 876 989: MobilePhone 989 is switched off
+findCallPath 876 346: MobilePhone 346 does not exist!
+findCallPath 568 213: 10, 4, 1, 0, 2, 7, 13

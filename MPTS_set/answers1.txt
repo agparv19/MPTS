@@ -1,0 +1,18 @@
+lowestRouter 2 3: 0
+queryNthChild 0 0: 1
+queryNthChild 0 2: 3
+lowestRouter 4 5: 1
+queryNthChild 2 0: 6
+queryNthChild 3 0: 9
+findPhone 989: No MobilePhone 989 found
+findPhone 989: 4
+queryMobilePhoneSet 4: 876 989 
+queryMobilePhoneSet 1: 876 989 
+queryMobilePhoneSet 1: 54 656 876 989 
+queryMobilePhoneSet 1: 54 876 989 
+queryMobilePhoneSet 0: 54 213 295 346 568 876 897 989 
+findCallPath 989 876: 4
+findCallPath 989 876: 7, 2, 0, 1, 4
+findCallPath 876 989: 4, 1, 0, 2, 7
+findCallPath 876 989: MobilePhone 989 is switched off
+findCallPath 876 346: 4, 1, 0, 3, 9
